@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import UsePageMetaData from '../meta/UsePageMetaData'
 import "../styles/login.css"
 import google from "../assets/google.webp"
 import { Link } from 'react-router-dom'
 const Login = () => {
+    UsePageMetaData('Login');
     const [seePassword, setSeePassword] = useState(false);
     const handleClick = () => {
         setSeePassword(!seePassword)

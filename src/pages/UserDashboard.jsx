@@ -1,4 +1,5 @@
 import React from 'react'
+import UsePageMetaData from '../meta/UsePageMetaData'
 import "../styles/dashboard.css"
 import adminUser from "../assets/users/adminUser.png"
 import tsa from "../assets/users/tsa.png"
@@ -7,6 +8,7 @@ import dj from "../assets/users/dj.png"
 import cc from "../assets/users/cc.png"
 import mamen from "../assets/users/JAMES.png"
 const UserDashboard = () => {
+    UsePageMetaData('User Dashboard');
     return (
         <>
             <section id="sidebar">

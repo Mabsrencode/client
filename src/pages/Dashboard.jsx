@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import UsePageMetaData from '../meta/UsePageMetaData'
 import "../styles/dashboard.css"
 import adminUser from "../assets/users/adminUser.png"
 import tsa from "../assets/users/tsa.png"
@@ -8,6 +9,7 @@ import cc from "../assets/users/cc.png"
 import mamen from "../assets/users/JAMES.png"
 import { Link } from 'react-router-dom'
 const Dashboard = () => {
+    UsePageMetaData('Admin Dashboard');
     const [openNotification, setOpenNotification] = useState(false)
     const handleOpenNotifications = () => {
         setOpenNotification(!openNotification)
