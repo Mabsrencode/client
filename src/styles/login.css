@@ -1,0 +1,14 @@
+.login,
+.register {
+  background-image: url("../assets/banner.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login form,
+.register form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
